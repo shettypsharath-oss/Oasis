@@ -1,0 +1,290 @@
+/* =========================
+   BASIC SETTINGS
+========================= */
+
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+
+
+body {
+
+    min-height: 100vh;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    padding: 20px;
+
+    font-family: Arial, sans-serif;
+
+    background:
+        linear-gradient(
+            135deg,
+            #dbeafe,
+            #f8fafc
+        );
+
+    color: #172033;
+
+}
+
+
+
+/* =========================
+   CONTAINER
+========================= */
+
+.container {
+
+    width: 100%;
+
+    max-width: 500px;
+
+}
+
+
+
+/* =========================
+   CONVERTER BOX
+========================= */
+
+.converter {
+
+    background: white;
+
+    padding: 40px;
+
+    border-radius: 20px;
+
+    box-shadow:
+        0 20px 50px
+        rgba(0, 0, 0, 0.12);
+
+}
+
+
+
+/* =========================
+   HEADING
+========================= */
+
+.heading {
+
+    color: #4f46e5;
+
+    font-size: 13px;
+
+    font-weight: bold;
+
+    letter-spacing: 2px;
+
+}
+
+
+h1 {
+
+    font-size: 38px;
+
+    margin: 10px 0;
+
+}
+
+
+.description {
+
+    color: #667085;
+
+    margin-bottom: 30px;
+
+}
+
+
+
+/* =========================
+   LABELS
+========================= */
+
+label {
+
+    display: block;
+
+    margin-top: 15px;
+
+    margin-bottom: 8px;
+
+    font-weight: bold;
+
+}
+
+
+
+/* =========================
+   INPUT & SELECT
+========================= */
+
+input,
+select {
+
+    width: 100%;
+
+    padding: 13px;
+
+    font-size: 16px;
+
+    border: 1px solid #d5dbe6;
+
+    border-radius: 8px;
+
+    outline: none;
+
+}
+
+
+input:focus,
+select:focus {
+
+    border-color: #4f46e5;
+
+    box-shadow:
+        0 0 0 3px
+        rgba(79, 70, 229, 0.1);
+
+}
+
+
+
+/* =========================
+   BUTTON
+========================= */
+
+button {
+
+    width: 100%;
+
+    margin-top: 25px;
+
+    padding: 14px;
+
+    border: none;
+
+    border-radius: 8px;
+
+    background: #4f46e5;
+
+    color: white;
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+}
+
+
+button:hover {
+
+    background: #3730a3;
+
+}
+
+
+
+/* =========================
+   ERROR
+========================= */
+
+#error {
+
+    color: #dc2626;
+
+    font-weight: bold;
+
+    margin-top: 15px;
+
+}
+
+
+
+/* =========================
+   RESULT
+========================= */
+
+.result {
+
+    margin-top: 25px;
+
+    padding: 20px;
+
+    border-radius: 12px;
+
+    background: #f5f7ff;
+
+}
+
+
+.result h2 {
+
+    margin-bottom: 10px;
+
+}
+
+
+.result p {
+
+    padding: 10px 0;
+
+    border-bottom: 1px solid #e1e5ed;
+
+}
+
+
+.result p:last-child {
+
+    border-bottom: none;
+
+}
+
+
+.result span {
+
+    float: right;
+
+    color: #4f46e5;
+
+    font-weight: bold;
+
+}
+
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 500px) {
+
+    .converter {
+
+        padding: 25px 20px;
+
+    }
+
+
+    h1 {
+
+        font-size: 30px;
+
+    }
+
+}
